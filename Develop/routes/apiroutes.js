@@ -19,4 +19,23 @@ Workout.findByIdAndUpdate(params.id, {$push:{exercises:body}},{new:true, runVali
 
 })
 
+app.get("/api/workouts", (req, res) => {
+    Workout.aggregate([{$addFields:{
+        totalDuration: {$sum: "$exercises.duration"}
+
+    }}])
+    .then((dbWorkout) => {res.json(dbWorkout)})
+.catch((err) => {res.json(err)})
+})
+
+app.get("/api/workouts/range", (req, res) => {
+    Workout.aggregate([{$addFields:{
+        totalDuration: {$sum: "$exercises.duration"}
+
+    }}])
+    .then((dbWorkout) => {res.json(dbWorkout)})
+.catch((err) => {res.json(err)})
+})
+
+
 module.exports = app
