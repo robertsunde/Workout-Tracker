@@ -58,7 +58,7 @@ function populateChart(data) {
       labels,
       datasets: [
         {
-          label: 'Workout Duration In Minutes',
+          label: 'Total Workout Duration In Minutes per Day',
           backgroundColor: 'red',
           borderColor: 'red',
           data: durations,
@@ -123,7 +123,7 @@ function populateChart(data) {
     options: {
       title: {
         display: true,
-        text: 'Pounds Lifted',
+        text: 'Total Pounds Lifted per Day',
       },
       scales: {
         yAxes: [
@@ -143,7 +143,7 @@ function populateChart(data) {
       labels: workouts,
       datasets: [
         {
-          label: 'Exercises Performed',
+          label: 'Duration of Exercises Performed',
           backgroundColor: colors,
           data: durations,
         },
@@ -152,7 +152,7 @@ function populateChart(data) {
     options: {
       title: {
         display: true,
-        text: 'Exercises Performed',
+        text: 'Duration of Exercises Performed',
       },
     },
   });
@@ -163,7 +163,7 @@ function populateChart(data) {
       labels: workouts,
       datasets: [
         {
-          label: 'Exercises Performed',
+          label: 'Pounds Lifted per Exercise Performed',
           backgroundColor: colors,
           data: pounds,
         },
@@ -172,7 +172,7 @@ function populateChart(data) {
     options: {
       title: {
         display: true,
-        text: 'Exercises Performed',
+        text: 'Pounds Lifted per Exercise Performed',
       },
     },
   });
