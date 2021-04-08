@@ -11,6 +11,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 
+// new connection for using heroku server
 mongoose.connect(
   process.env.MONGODB_URI || 'mongodb://localhost/workout',
   {
@@ -34,7 +35,7 @@ mongoose.connect(
 app.use(require("./routes/apiroutes"));
 app.use(require("./routes/main"));
 app.listen(PORT, () => {
-  console.log(`App running on port ${PORT}!`);
+  console.log(`App running on localhost:${PORT}`);
 });
 
 // 
