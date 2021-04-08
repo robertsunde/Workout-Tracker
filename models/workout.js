@@ -2,11 +2,15 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
+// workout Schema defined here
+
 const workoutSchema = new Schema({
 
     day: {type:Date, 
         default:new Date()},
 
+// defines exercises based on seed.js file setup
+  
     exercises: [{
 
     type: {

@@ -52,6 +52,9 @@ function populateChart(data) {
     return daysOfWeek[date.getDay()];
   });
 
+
+  // Chart for Totaal Workout Duration in Minutes per Day
+
   let lineChart = new Chart(line, {
     type: 'line',
     data: {
@@ -91,6 +94,9 @@ function populateChart(data) {
       },
     },
   });
+
+
+  // chart for Total Pounds Lifted per Day
 
   let barChart = new Chart(bar, {
     type: 'bar',
@@ -137,6 +143,8 @@ function populateChart(data) {
     },
   });
 
+
+  // Chart for duration of exercises performed.
   let pieChart = new Chart(pie, {
     type: 'pie',
     data: {
@@ -157,6 +165,8 @@ function populateChart(data) {
     },
   });
 
+
+  // Chart for Pounds Lifted per Exercise Performed.
   let donutChart = new Chart(pie2, {
     type: 'doughnut',
     data: {
