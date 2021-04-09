@@ -17,11 +17,23 @@ The workout tracker is an app that can be used to keep track of a users workouts
 <br/>
 <br/>
 ## Installation <br/>
-The Workout Tracker is available via web, and does not require any installation. In order to use, visit: <br/>
+The Workout Tracker is available via web, and does not require any installation. In order to use, visit: https://robs-workout-tracker.herokuapp.com/ <br/>
 <br/>
 <br/>
 ## Usage <br/>
-Upon loading the page, the user will be greeted with the following screen. Here, the user will see their "Last Workout" in the center of the screen, with stats included. Next, they can either select "New Workout" to start a completely new workout, or "Continue Workout" to add exercises to your current workout session. Select "New Workout" and the form below will populate. Fill out the form as needed for your workout. Once all exercises are added, select the "Dashboard button at the top left of the screen. The screen below will populate, which includes different charts and graphs to display your last 7 exercises. Lastly, select "Fitness Tracker" at the top left of the screen to navigate back to the homepage. From here, the user can continue the workout that was added to previously, or start a "New Workout" that clears the previous exercises. <br/>
+Upon loading the page, the user will be greeted with the following screen.
+
+![Fitness Tracker Homepage](https://user-images.githubusercontent.com/73792987/114221800-be508400-993b-11eb-8373-fac0095a315c.png)
+
+ Here, the user will see their "Last Workout" in the center of the screen, with stats included. Next, they can either select "New Workout" to start a completely new workout, or "Continue Workout" to add exercises to your current workout session. Select "New Workout" and the form below will populate.
+ 
+ ![Fitness Tracker Add Workout](https://user-images.githubusercontent.com/73792987/114221862-d9bb8f00-993b-11eb-8b6d-21ef650b53fb.png)
+
+  Fill out the form as needed for your workout. Once all exercises are added, select the "Dashboard button at the top left of the screen. The screen below will populate, which includes different charts and graphs to display your last 7 exercises. 
+  
+  ![Fitness Tracker Stats](https://user-images.githubusercontent.com/73792987/114223461-dde8ac00-993d-11eb-94be-f5c184f0895b.png)
+  
+  Lastly, select "Fitness Tracker" at the top left of the screen to navigate back to the homepage. From here, the user can continue the workout that was added to previously, or start a "New Workout" that clears the previous exercises. <br/>
 <br/>
 <br/>
 ## License <br/>
